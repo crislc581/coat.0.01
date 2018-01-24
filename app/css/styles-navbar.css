@@ -1,0 +1,33 @@
+.mi-navbar-top{
+	background:transparent; 
+}
+
+img#id-img-escudo-colegio{
+	width: 140px;
+}
+
+.smallEcudo{
+	width: 45px !important;
+}
+#mainNav.navbar-light .navbar-collapse .navbar-sidenav.barra-vertical-color > .nav-item > .nav-link{
+	color: rgba(255, 255, 255, 0.9)  ;
+}
+#mainNav.navbar-light .navbar-collapse .navbar-sidenav.barra-vertical-color > .nav-item.active > .nav-link{
+	color: #0a79fa ;
+}
+
+.mi-navbar-top{
+	box-shadow:  1px 7px 20px 0px rgba(0, 0, 0, 0.12) !important;
+}
+
+@media ( max-width: 991px) {
+	#name-proyecto-coaco{
+		margin-left: auto !important; 
+	}
+	.navbar-nav.navbar-sidenav.navbar-light.bg-primary.barra-vertical-color .nav-item.active{
+		background-color: rgba( 255,255,255.9) !important;
+		background: rgb( 255,255,255 )  ;
+		color: #0a79fa !important;
+}
+
+}

@@ -1,0 +1,68 @@
+
+div select option{
+  background: #f4f4f4;
+  font-size: 18px;
+}
+ .cabezaa{
+   background: rgba(5, 116, 152, 0.12);
+   color: rgba(18, 101, 126, 0.87);
+   padding:2% 3% 3% 3%;
+   margin-bottom:3% ;
+ }
+
+.tomarAsi button{
+  background: rgb(45, 196, 74);
+  border-radius: 1px 1px;
+  color: rgba(210, 250, 218, 1);
+  font-weight: bold;
+  text-decoration: none;
+  width: 100%;
+}
+
+.tomarAsi button:hover{background: rgb(29, 175, 57);color: rgba(242, 252, 244, 1); transition: .3s;cursor: pointer;}
+.tomarAsi button:active{background: rgba(50, 196, 78, 0.91);color: rgba(242, 252, 244, 1);}
+.tomarAsi button i{
+  /*float: right;*/
+  font-size: 100%;
+  /*margin: 0;*/
+  /*padding: 1px;*/
+}
+
+.barrapie{
+  background: rgba(5, 116, 152, 0.12);
+  color: rgba(18, 101, 126, 0.87);
+  padding: 0 3% 3% 3%;
+}
+tbody tr td input[type="checkbox"]{
+  height: 17px;
+  width: 17px;
+}
+
+button#tomaFin{
+  padding: 7px 50px;
+  font-size: 15px;
+  font-family:monospace;
+  margin-top: 3%;
+  font-weight: bold;
+  border: none;
+  text-align: center;
+  background: rgb(41, 182, 68);
+  color: rgba(210, 250, 218, 1);
+}
+
+button#tomaFin > i {
+  float: right;
+  margin: 0 0 0 8px;
+  font-size: 20px;
+}
+
+button#tomaFin:hover{background: rgb(26, 156, 51);color: rgba(242, 252, 244, 1); transition: .3s; cursor: pointer;}
+button#tomaFin:active{background: rgba(50, 196, 78, 0.91);color: rgba(242, 252, 244, 1);}
+
+
+#aceptar-modal-curso{
+  border-radius: 1px;
+  margin: none;
+  height: 100%;
+  width: 100%;
+}

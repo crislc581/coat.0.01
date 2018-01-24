@@ -1,0 +1,132 @@
+
+/*formuario de busqueda*/
+
+.class-hijo .col-sm-5 , .class-hijo .col-sm-7 {
+  font-size: 0.8em;
+}
+
+.c-c-info-a{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /*box-sizing: border-box;*/
+  overflow: auto;
+  height: 100px;
+  padding: 5px;
+}
+.class-hijo .content-{
+  height: 100px;
+  overflow: auto;
+}
+
+.cent > a{
+  line-height: 2.3em;
+}
+
+.enlace-alumno:hover{
+text-decoration: none;
+animation-name:pulsee;
+animation-duration: 1s;
+animation-fill-mode: both;
+}
+.disabled-opa{
+  opacity: 0.8;
+}
+.class-hijo img{
+  height: 100px;
+  width: 100px;
+}
+/*validacion campo*/
+.desaparecee_texto{
+  display: none;
+}
+
+
+
+
+/*loedare en apnatall completa*/
+.rta_loader{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1066;
+        display: none;
+      }
+
+
+
+
+
+
+
+
+
+
+@keyframes pulsee {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@media screen and (max-width: 610px){
+  .enlace-alumno{
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////// Formulario de nueva matricuña frm en la modal///////////// */
+
+#frmatriculalumno select.custom-select {
+  width: 100% !important;
+}
+
+body #modal-info-alu-matricula #frmatriculalumno .fa.fa-sort-desc.icon-derecha-plus{
+  /*font-size: 20px !important;*/
+  position: absolute !important;
+  /*background-color: red !important;*/
+  right: 20px
+}
+
+#frmatriculalumno .datos_estudiantes_basicos .form-control{
+    border-style: none !important;
+    transition: all .4s;
+}
+
+#frmatriculalumno .datos_estudiantes_basicos .form-control:focus{
+  background: #f8f8f8;
+}
+
+
+#frmatriculalumno .datos_estudiantes_basicos .input-group-addon{
+  border-style: none;
+  background: transparent;
+}
